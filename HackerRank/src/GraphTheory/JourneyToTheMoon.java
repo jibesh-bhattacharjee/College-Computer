@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 /**
  * @author Jibesh
- * Result: Test case 11 not passed
+ * Result: All Test Cases Passed
  */
 public class JourneyToTheMoon {
 
@@ -75,8 +75,8 @@ public class JourneyToTheMoon {
          * Number of astronauts and connected components works fine
          */
         
-        int sum = 0;
-        int result = 0;
+        long sum = 0L;
+        long result = 0L;
         
         
         for(Integer size : astroCountryCnt){
